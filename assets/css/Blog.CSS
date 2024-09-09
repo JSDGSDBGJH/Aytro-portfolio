@@ -1,0 +1,129 @@
+#sec_2nd{
+    margin-top: calc(30px + 3vw);
+}
+#sec_2nd .cuctom_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cuctom_row .Product_card{
+    padding: 10px;
+    width: 422px;
+    cursor: pointer;
+}
+
+.cuctom_row .img_box{
+    width: 100%;
+    position: relative;
+}
+
+.cuctom_row .img_box img{
+    width: 100%;
+}
+.cuctom_row .img_box span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: hsla(217, 28%, 9%, .5);
+    color: white;
+    padding: 10px;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.cuctom_row .text_box{
+    background: white;
+    box-shadow: 0px 0px 10px rgb(201, 200, 200);
+    padding: 10px;
+}
+
+
+/* hover */
+.cuctom_row .Product_card:hover h4{
+    color: #FF6F61;
+}
+
+.cuctom_row .Product_card:hover a{
+    color: #FF6F61;
+}
+/* hover end */
+
+.cuctom_row .text_box h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.cuctom_row .text_box p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.cuctom_row .text_box a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: black;
+}
+
+
+/*last row*/
+#sec_2nd .last_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#sec_2nd .left p{
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.left .outer{
+    width: 150px;
+    height: 2px;
+    background: #d4d4d4;
+    border-radius: 1px;
+}
+.left .outer .inner{
+    width: 65%;
+    height: 100%;
+    background: black;
+    border-radius: 1px;
+}
+
+#sec_2nd .right a{
+    color: black;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.right button{
+    border: 1px solid black;
+    background: white;
+    color: black;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+.right button:nth-child(2){
+  
+    color: white;
+    background: black;
+}
+
+/*last row end*/

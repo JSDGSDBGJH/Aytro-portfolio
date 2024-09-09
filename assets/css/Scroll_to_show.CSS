@@ -1,0 +1,20 @@
+/* try */
+.src_anim{
+    opacity: 0;
+    transform: translateY(150px);
+    transition: 0.5s ease-out;
+}
+.src_anim.show{
+ animation: up .5s forwards;
+}
+@keyframes up{
+  0% {
+      opacity: 0;
+      transform: translateY(150px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* try end */

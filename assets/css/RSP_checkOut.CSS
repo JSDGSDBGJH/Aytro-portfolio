@@ -1,0 +1,45 @@
+
+
+@media(max-width: 1200px){/*iPad pro*/
+
+    .left .name_box .first input, .left .name_box .last input{
+        height: 50px;
+        width: 215px !important;
+    }
+
+}
+@media(max-width: 991px){
+    .left .name_box .first input, .left .name_box .last input{
+        height: 50px;
+        width: 160px !important;
+    }
+}
+
+@media(max-width: 600px){
+    /* 2nd sec strt */
+    .Information_box .left, .Information_box .right{
+        width: 100% !important;
+    }
+
+    .Information_box .left .name_box{
+        flex-direction: column !important;
+    }
+    .left .name_box .first input, .left .name_box .last input{
+        height: 50px;
+        width: 100% !important;
+    }
+
+    /* 3rd sec strt */
+    #section_3rd .row_3rd{
+        display: none;
+    }
+    #section_3rd .row_shadow{
+        display: block !important;
+    }
+}
+
+@media(max-width: 395px){
+    .row_2nd .top p{
+      font-size: 12px !important;
+    }
+}

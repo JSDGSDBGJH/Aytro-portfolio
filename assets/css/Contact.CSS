@@ -1,0 +1,128 @@
+#sec_2nd{
+    margin: calc(30px + 2vw) 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sec_2nd .cuctom_row{
+    display: flex;
+    justify-content: space-between;
+}
+#sec_2nd .margin{
+    margin: 0 10px;
+}
+#sec_2nd .cuctom_row .box{
+    width: 32%;
+    box-shadow: 0px 0px 10px rgb(218, 217, 217);
+    padding: 15px;
+}
+
+#sec_2nd .box h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+
+}
+
+#sec_2nd .box ul{
+    margin-bottom: 0;
+}
+#sec_2nd .box li:last-child p{
+    margin-bottom: 0;
+}
+
+#sec_2nd .box h3 span{
+    color: #FF6F61;
+}
+
+#sec_2nd .box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+#sec_2nd .box b{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+#sec_2nd .box p i{
+    margin: 0 5px;
+}
+#sec_2nd .box p i:hover{
+    color: #FF6F61;
+    cursor: pointer;
+}
+/* 3rd sec */
+
+/* left */
+
+#sec_3rd .custom_row{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgb(218, 217, 217);
+}
+
+#sec_3rd .custom_row .left{
+    
+    width: 49%;
+    padding: 15px;
+}
+.margin_left{
+    margin-left: 5px;
+}
+#sec_3rd .custom_row .left input{
+    margin-top: 15px;
+    height: 60px;
+    background: #F1F3F4;
+    border: 0;
+    width: 49%;
+    padding: 0 10px;
+}
+#sec_3rd .custom_row .left textarea{
+    margin-top: 15px;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border: 0;
+    background: #F1F3F4;
+
+}
+#sec_3rd .custom_row .left h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+}
+#sec_3rd .custom_row .left p{
+    text-align: center;
+    margin: 15px 0 5px 0;
+}
+#sec_3rd .custom_row .left p a{
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    background: black;
+    padding: 10px;
+}
+
+
+/* left end */
+
+/* right start */
+#sec_3rd .custom_row .right{
+    width: 49%;
+    background: aquamarine;
+}
+#sec_3rd .custom_row .right img{
+    width: 100%;
+}
+/* right end */
+

@@ -1,0 +1,13 @@
+#nav_move{
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px gray;
+}
+.hidden{
+    transform: translateY(-100%);
+}

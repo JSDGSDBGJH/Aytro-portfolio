@@ -1,0 +1,20 @@
+
+
+
+@media (max-width: 600px){
+    #sec_4th .img_box .top_left{
+        scale: .8 !important;
+        top: 0 !important;
+        left: 0 !important;
+    }    
+
+    #sec_4th .img_box .top_right{
+        scale: .7 !important;
+        top: 5px !important;
+        right: -5px !important;
+    } 
+
+    #sec_4th .img_box .outer{
+        scale: .7 !important;
+    }
+}

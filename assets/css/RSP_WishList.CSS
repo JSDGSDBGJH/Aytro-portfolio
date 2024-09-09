@@ -1,0 +1,34 @@
+
+@media(max-width: 1200px )/*iPad Pro*/{
+
+    .custom_row .top{
+        height: 50px !important;
+    }
+    
+.custom_row .top .box p{
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+    .custom_row .pro_box .box a{
+        padding: 8px 10px !important;
+    
+    }
+}
+
+
+
+
+
+@media(max-width: 600px){
+    
+#sec_2nd .custom_row{
+    display: none !important;
+}
+#sec_2nd .shadow_row{
+    display: block !important;
+}
+
+}

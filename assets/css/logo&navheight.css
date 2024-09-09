@@ -1,0 +1,17 @@
+ 
+
+@media (max-width: 991px){
+    .mobil_seacch_btn{
+        display: flex;
+        gap: 25px;
+        margin: 0 !important;
+    }  
+}
+ 
+ @media (max-width: 435px){
+      /* nav strt=== */
+         .navbar-brand img{
+        width: 100px;
+    }
+    /* nav end== */
+ }

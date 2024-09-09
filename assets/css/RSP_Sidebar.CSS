@@ -1,0 +1,114 @@
+@media(max-width: 1200px){/*iPad Pro*/
+    .row_1st .left .arrowLeft{
+        top: 20% !important;
+    }
+    .row_1st .left .arrowRight{
+        top: 20% !important;
+    }
+
+    .ppp{
+        margin-bottom: 0 !important;
+    }
+    .h4{
+        font-size: 1.5rem !important;
+    }
+    .aa{
+        font-size: 1.2rem !important;
+    }
+
+    #sec_2nd .right .ul_2 li .box{
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .right .ul_2 li .fox h6{
+        font-family: Josefin Sans;
+        font-size: 14px !important;
+        font-weight: 600;
+        line-height: 18px !important;
+        margin-bottom: 0 !important;
+    }
+    .right .ul_2 li .fox span{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 991px){
+    #sec_2nd .right .ul_2 li .box{
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .right .ul_2 li .fox h6{
+        font-family: Josefin Sans;
+        font-size: 12px !important;
+        font-weight: 600;
+        line-height: 15px !important;
+        margin-bottom: 0 !important;
+    }
+   
+}
+
+@media(max-width: 600px){/*mobile*/
+    .row_1st .left{
+        width: 100% !important;
+    }
+
+    .row_1st .left .arrowLeft{
+        top: 10% !important;
+    }
+    .row_1st .left .arrowRight{
+        top: 10% !important;
+    }
+
+    .ppp{
+        margin-bottom: 0 !important;
+    }
+    .h4{
+        font-size: 1.5rem !important;
+    }
+    .aa{
+        font-size: 1.2rem !important;
+    }
+
+    #sec_2nd .row_1st .right{
+     display: none !important;
+    }
+
+
+    /* last */
+    .left .slick_chield_2 .video{
+        scale: .6 !important;
+    }
+    .slick_chield_2 .img_box .top_left{
+        scale: .8 !important;
+        left: 0 !important;
+        top: 10px !important;
+    }
+
+    .slick_chield_2 .img_box .top_right{
+        scale: .8 !important;
+        right: 0 !important;
+        top: 10px !important;
+    }
+
+    /* last end */
+
+
+
+
+}
+
+@media(max-width: 600px){
+    /* shadow */
+    #sec_2nd .row_1st .shadow{
+        display: block;
+    }
+    /* shadow end */
+}
+@media(max-width: 360px){
+    .h4{
+        font-size: 1.3rem !important;
+    }
+    .aa{
+        font-size: 1rem !important;
+    }
+}

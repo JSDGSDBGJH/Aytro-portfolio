@@ -1,0 +1,145 @@
+#sec_2nd{
+    margin-top: calc(30px + 2vw);
+}
+
+
+#sec_2nd .custom_row .top{
+    display: flex;
+    background:#F1F3F4;
+    height: 60px;
+    border-bottom: 2px solid #FF6F61;
+}
+.custom_row p{
+    margin: 0;
+}
+.custom_row .top .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_row .top .box p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+.custom_row .top .box:nth-child(1){
+    width: 10%;
+}
+.custom_row .top .box:nth-child(2){
+    width: 10%;
+}
+.custom_row .top .box:nth-child(3){
+    width: 30%;
+}
+.custom_row .top .box:nth-child(4){
+    width: 15%;
+}
+.custom_row .top .box:nth-child(5){
+    width: 15%;
+}
+.custom_row .top .box:nth-child(6){
+    width: 20%;
+}
+
+
+/* pro box */
+
+#sec_2nd .custom_row .pro_box{
+    display: flex;
+    border: 2px solid #F1F3F4;
+    border-top: 0;
+}
+
+.custom_row .pro_box .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom_row .pro_box .box:nth-child(1){
+    width: 10%;
+}
+.custom_row .pro_box .box:nth-child(2){
+    width: 10%;
+}
+.custom_row .pro_box .box:nth-child(3){
+    width: 30%;
+    justify-content: left;
+}
+.custom_row .pro_box .box:nth-child(4){
+    width: 15%;
+}
+.custom_row .pro_box .box:nth-child(5){
+    width: 15%;
+}
+.custom_row .pro_box .box:nth-child(6){
+    width: 20%;
+}
+
+.custom_row .pro_box .box .img_div{
+    width: 80%;
+    margin: 10px 0;
+    background: #F1F3F4;
+}
+.custom_row .pro_box .box .img_div img{
+    width: 100%;
+}
+
+.pro_box .box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+.pro_box .box p i{
+    color: green;
+}
+.custom_row .pro_box .box a{
+    color: white;
+    background: #FF6F61;
+    padding: 10px 15px;
+
+}
+
+
+/* shadow */
+#sec_2nd .shadow_row{
+    display: none;
+}
+.shadow_row .card{
+    margin-top: 20px;
+}
+
+.shadow_row .card .photo img{
+    width: 100%;
+}
+
+.shadow_row .card .card-body p{
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+.card .card-body p span{
+    color: #FF6F61;
+}
+
+.card .card-body p span:last-child{
+    color: black;
+    position: absolute;
+    right: 0;
+}
+.card .card-body p span i{
+    color: green;
+}
+
+
+.card .card-body button{
+    background: #FF6F61;
+}
+.card .card-body a{
+    color: white;
+    border-radius: 4px;
+}
+/* /shadow end */

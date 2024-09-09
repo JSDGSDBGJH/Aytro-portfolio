@@ -1,0 +1,19 @@
+.dropdown li{
+    
+    border-bottom: 1px solid rgb(217, 205, 205);
+    width: 170px;
+    position: relative;
+    display: inline-block;
+}
+
+#border::before{
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    left: 5px;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left: 10px solid #FF6F61;
+} 
+
