@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Classic</title>
+
+    <!-- ++===++ All Linls ++===++ -->
+
+    <!-- google font --><link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fev icon --> <link rel="shourtcut icon" href="./assets/image/Fev Icon.png" type="image/x-icon">
+
+    <!-- font awoesome link --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <!-- bootstrap css --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- slick css --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- vno box --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/2.1.8/venobox.css">
+
+    <!-- CUSTOM CSS --> <link rel="stylesheet" href="./assets/css/Classic.CSS">
+
+    <!--Links of Nav-top, Navbar, First-section & Footer-Section--><link rel="stylesheet" href="./assets/css/Nav_&_comn.CSS">
+
+    <!-- RESPONSIVE CSS --> <link rel="stylesheet" href="./assets/css/RSP_Classic.CSS">
+
+    <link rel="stylesheet" href="./assets/css/fixed_nav.css">
+
+    <link rel="stylesheet" href="./assets/css/currectPage.css">
+
+    <link rel="stylesheet" href="./assets/css/logo&navheight.css">
+
+     <!--scroll to show--> <link rel="stylesheet" href="./assets/css/Scroll_to_show.CSS">
+
+    <!-- ++===++ All Linls End ++===++ -->
+
+</head>
+<body>
+    
+     <!-- *************************NAVBER START**************************** -->
+
+    <!-- ====nav top==== -->
+    <section id="nav_top">
+        <div class="container">
+
+                <div class="custom_row_wraper">
+
+                    <div class="left">
+                        <span class="icon"><i class="fa-sharp fa-regular fa-paper-plane"></i></span>
+                        FREE SHIPING WORLD WIDE FOR ALL ORDERS OVER 
+                        <span>$150</span>
+                    </div>
+    
+                    <ul class="right">
+                        <li>Track Your Order</li>
+                        <li>
+                            <select name="select" id="select">
+                                <option value="English">English</option>
+                                <option value="Bangla">Bangla</option>
+                                <option value="Arabic">Arabic</option>
+                                <option value="Urdu">Urdu</option>
+                                <option value="Russian">Russian</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select>
+                                <option>USD</option>
+                                <option>BDT</option>
+                                <option>AED</option>
+                                <option>PKR</option>
+                                <option>RUBLE</option>
+                            </select>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+        </div>
+     </section>
+    <!-- ====nav top end==== -->
+
+
+     <nav id="nav_move" class="navbar navbar-expand-lg">
+        <div class="container">
+
+         
+
+          <div class="off_logo_box" style="display: flex; align-items: center;">
+            <span class="navbar-toggler nav_short" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+  
+            <a class="navbar-brand" href="#">
+              <img src="./assets/image/Logo Aytro.png" alt="Aytro-logo"/>
+            </a>
+          </div>
+         
+          <ul class="mobil_seacch_btn">
+            <li> <a href="#"  type="button" class="search_offc" data-bs-dismiss="offcanvas" aria-label="Close" > <i class="fa-solid fa-magnifying-glass"></i> </a></li>
+            <li> <a href="#" id="MBL_profile"> <i class="fa-solid fa-user"></i> </a> </li>
+          </ul>
+         
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+
+                <!-- dropdown -->
+              <li class="nav-item dropdown_parent">
+                <a class="nav-link" href="#">Shop<i class="fa-solid fa-chevron-down"></i></a>
+
+                <span class="tryangle"></span>
+                <ul class="dropdown shadow"> 
+                     <div class="drp_item_wraper">
+                      <li> <a href="Shop.html">Shop-Grid</a> </li>
+                      <li> <a href="Detail.html">Shop-Detail</a> </li>
+                      <li><a href="Compare.html">Shop-Compare</a></li>
+                      <li><a href="Cart.html">Shop-Cart</a></li>
+                      <li><a href="Checkout.html"> Shop-Checkout</a></li>
+                      <li><a href="Wishlist.html">Shop-Wishlist</a></li>
+                     </div>
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown_parent">
+              <a class="nav-link" href="#">Page<i class="fa-solid fa-chevron-down"></i></a>
+
+                <span class="tryangle"></span>
+                <ul class="dropdown shadow"> 
+                     <div class="drp_item_wraper">
+                      <li> <a href="Not.html">Pages</a> </li>
+                      <li> <a href="About.html">About Us</a></li>
+                      <li> <a href="Not.html">Pages</a> </li>
+                      <li> <a href="About.html">About Us</a></li>
+                      <li> <a href="Not.html">Pages</a> </li>
+                      <li> <a href="About.html">About Us</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown_parent">
+                <a class="nav-link" href="#">Feature<i class="fa-solid fa-chevron-down"></i></a>
+
+                <span class="tryangle"></span>
+                <ul class="dropdown shadow">
+                    <div class="drp_item_wraper"> 
+                        <li> <a href="Shop.html">Shop-Grid</a> </li>
+                        <li> <a href="Detail.html">Shop-Detail</a> </li>
+                        <li><a href="Compare.html">Shop-Compare</a></li>
+                        <li><a href="Cart.html">Shop-Cart</a></li>
+                        <li><a href="Checkout.html"> Shop-Checkout</a></li>
+                        <li><a href="Wishlist.html">Shop-Wishlist</a></li>
+                    </div>
+               </ul>
+
+              </li>
+             <li class="nav-item dropdown_parent">
+                <a class="nav-link active_a" href="#">Blogs<i class="fa-solid fa-chevron-down"></i></a>
+
+                <span class="tryangle"></span>
+                <ul class="dropdown shadow"> 
+                     <div class="drp_item_wraper">
+                        <li> <a href="Blog.html">Blog</a> </li>
+                        <li id="border"> <a href="Classic.html">Blog-Classic</a> </li>
+                        <li> <a href="Sidebar.html">Blog-Sidebar</a> </li>
+                        <li> <a href="BlogDetail.html">Blog-Details</a> </li>
+
+                     </div>
+                </ul>
+
+              </li>
+              <!-- dopdown end -->
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+             
+
+
+
+
+
+            <!-- nav left icons start -->
+            <ul class="icons my-auto ">
+                <li> <a href="#" class="search"> <img src="./assets/image/Search.png"> </a></li>
+                <li> <a href="#" class="user"> <img src="./assets/image/user.png"> </a> </li>
+                <li> <a href="#"> <img src="./assets/image/wish.png"> </a> </li>
+
+                <li class="zeroParent"> 
+                    <span class="zero">0</span>
+                    <a href="#"> <img src="./assets/image/tala.png"> </a>
+                </li>
+            </ul> 
+            <!-- nav left icons end -->
+
+          </div>
+        </div>
+    </nav>
+
+    <!-- ====search box strt==== -->
+    <div class="search_box">
+        <form action="">
+            <div class="cross"><i class="fa-solid fa-xmark"></i></div>
+
+            <div class="btn-group search_box_child">
+                <input class="input" type="text" placeholder="Search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- ====search box end==== -->
+
+
+
+    <!-- ====loging page strt==== -->
+   <div class="login_bground">
+
+    <span class="log_cloce"><i class="fa-solid fa-xmark"></i></span>
+
+    <div class="login_box">
+
+      <div class="top">
+        <div class="input_Hed"><i class="fa-regular fa-user"></i><span><i class="fa-solid fa-camera"></i></span></div>
+      </div>
+
+      <div class="input_box creat">
+        <h3>Creat An Account</h3>
+      </div>
+      <div class="input_box mailBox">     
+        <input id="email"  type="email" placeholder="Email or phone number">
+      </div>
+      <div class="input_box passBox">
+        <input id="password" type="password" placeholder="Enter your password">
+        <button class="show"><i class="fa-solid fa-eye"></i></button>
+        <button class="hide"><i class="fa-solid fa-eye-slash"></i></button>
+      </div>
+      <div class="input_box loging_parent">
+        <button class="login">LOGIN</button>
+      </div>
+      <div class="input_box loging_parent">
+        <button class="login">SIGN UP</button>
+      </div>
+      <div class="input_box GGL_FBK">
+        <button class="GGL"><i class="fa-brands fa-google"></i></button>
+        <button class="apple"><i class="fa-brands fa-apple"></i></button>
+        <button class="FBK"><i class="fa-brands fa-facebook"></i></button>
+        <button class="FBK"> <i class="fa-brands fa-firefox-browser"></i></button>
+      </div>
+      
+    </div>
+
+   </div>
+    <!-- ====loging page end==== -->
+
+
+    <!-- offcanvas srart -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            <img src="./assets/image/Logo Aytro.png" alt="Aytro-logo">
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+              <!-- icon -->
+              <ul class="icons off_icons my-auto ">
+                    <li> <a href="#"> <img src="./assets/image/wish.png"> </a> </li>
+              
+                    <li class="zeroParent"> 
+                        <span class="zero">0</span>
+                        <a href="#"> <img src="./assets/image/tala.png"> </a>
+                    </li>
+              </ul>
+              <!-- icon -->
+         
+              <div class="off_item">
+                <div>
+                  <a class="ancor" href="index.html">Home</a>
+                </div>
+  
+                <div>
+                  <a class="ancor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop <i class="fa-solid fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Shop.html">Shop-Grig</a></li>
+                    <li><a class="dropdown-item" href="Detail.html">Shop-Details</a></li>
+                    <li><a class="dropdown-item" href="Compare.html">Shop-Compare</a></li>
+                    <li><a class="dropdown-item" href="Cart.html">Shop-Cart</a></li>
+                    <li><a class="dropdown-item" href="Checkout.html">Shop-Checkout</a></li>
+                    <li><a class="dropdown-item" href="Wishlist.html">Shop-Wishlist</a></li>
+                 </ul>
+                </div>
+                <div>
+                  <a class="ancor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Page <i class="fa-solid fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="About.html">About Us</a></li>
+                    <li><a class="dropdown-item" href="Not.html">Pages</a></li>
+                    <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                    <li><a class="dropdown-item" href="Classic.html">Blog-classic</a></li>
+                    <li><a class="dropdown-item" href="BlogDetail.html">Blog-Detail</a></li>
+                    <li><a class="dropdown-item" href="Sidebar.html">Blog-Sidebar</a></li>
+                 </ul>
+                </div>
+                <div>
+                  <a class="ancor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Feature <i class="fa-solid fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Shop.html">Shop-Grig</a></li>
+                    <li><a class="dropdown-item" href="Detail.html">Shop-Details</a></li>
+                    <li><a class="dropdown-item" href="Compare.html">Shop-Compare</a></li>
+                    <li><a class="dropdown-item" href="Cart.html">Shop-Cart</a></li>
+                    <li><a class="dropdown-item" href="Checkout.html">Shop-Checkout</a></li>
+                    <li><a class="dropdown-item" href="Wishlist.html">Shop-Wishlist</a></li>
+                 </ul>
+                </div>
+                <div>
+                  <a class="ancor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                    <li><a class="dropdown-item" href="Classic.html">Blog-classic</a></li>
+                    <li><a class="dropdown-item" href="BlogDetail.html">Blog-Detail</a></li>
+                    <li><a class="dropdown-item" href="Sidebar.html">Blog-Sidebar</a></li>
+                 </ul>
+                </div>
+  
+                
+  
+               <div>
+                <a class="ancor" href="Contact.html">Contact</a>
+               </div>
+              </div>
+        
+      </div>
+
+       
+    </div>
+     <!--offcanvas end  -->
+
+<!-- *************************NAVBER END**************************** -->
+
+  
+
+    <section id="sec_1st">
+        <div class="container">
+            <div class="cuctom_row">
+
+                <h1>Classic</h1>
+                <p>Blog  / Blog - Classic</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--2ND SEC-->
+    <section id="sec_2nd" class="src_anim">
+      <div class="container">
+
+        <div class="cuctom_row">
+
+           <div class="arrahman_parent"><!--slick parent-->
+
+           
+            <div class="arrahman_child"><!--slick Child-->
+                <div class="img_box">
+                  <img src="./assets/image/Classic(1).png" alt="">
+                 
+                </div>
+
+                <div class="text_box">
+                  <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+                  <h4 class="h4">Color, Size, Material Swatches</h4>
+                  <p class="pp">
+                    Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+                  </p>
+                  <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+
+            <div class="arrahman_child"><!--slick Child-->
+              <div class="img_box">
+                <img src="./assets/image/Classic(1).png" alt="">
+               
+              </div>
+
+              <div class="text_box">
+                <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+                <h4 class="h4">Color, Size, Material Swatches</h4>
+                <p class="pp">
+                  Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+                </p>
+                <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+              </div>
+          </div>
+
+          <div class="arrahman_child"><!--slick Child-->
+            <div class="img_box">
+              <img src="./assets/image/Classic(1).png" alt="">
+             
+            </div>
+
+            <div class="text_box">
+              <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+              <h4 class="h4">Color, Size, Material Swatches</h4>
+              <p class="pp">
+                Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+              </p>
+              <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+
+           
+
+           </div>
+
+           <div class="arrowRight"><i class="fa-solid fa-chevron-left"></i></div>
+           <div class="arrowLeft"><i class="fa-solid fa-chevron-right"></i></div> 
+
+        </div>
+      
+      </div>
+    </section>
+    <!--//2ND SEC END-->
+
+    <!-- 3RD SECTION  -->
+    <section id="sec_3rd">
+      <div class="container">
+
+        <div class="custom_row">
+
+          <div class="arrahman_child src_anim"><!--slick Child-->
+            <div class="img_box">
+              <img src="./assets/image/Classic(1).png" alt="">
+             
+            </div>
+
+            <div class="text_box">
+              <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+              <h4 class="h4">Women Fashionable Coats 2022</h4>
+              <p class="pp">
+                Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+              </p>
+              <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+
+          <div class="arrahman_child src_anim"><!--slick Child-->
+            <div class="img_box">
+              <img src="./assets/image/Classic(1).png" alt="">
+             
+            </div>
+
+            <div class="text_box">
+              <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+              <h4 class="h4">Fashion coats 2022: key trends</h4>
+              <p class="pp">
+                Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+              </p>
+              <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+
+          <div class="arrahman_child src_anim"><!--slick Child-->
+            <div class="img_box">
+              <img src="./assets/image/Classic(1).png" alt="">
+             
+            </div>
+
+            <div class="text_box">
+              <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+              <h4 class="h4">Minimal Design Inspiration</h4>
+              <p class="pp">
+                Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+              </p>
+              <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- 3RD SECTION END -->
+
+
+    <!-- 4th section start -->
+    <section id="sec_4th">
+      <div class="container">
+
+        <div class="custom_row">
+
+          <div class="arrahman_child src_anim"><!--slick Child-->
+            <div class="img_box">
+              <img src="./assets/image/Classic(1).png" alt="">
+              
+              <!--//absolute item//-->
+              <div class="music"> <img src="./assets/image/Classic(2).png" alt=""> </div>
+              <div class="top_left">
+                <div class="button"><i class="fa-solid fa-play"></i></div>
+                <p>#Treack <br> Audio Song</p>
+              </div>
+
+              <div class="top_right">
+                <button><i class="fa-solid fa-heart"></i></button>
+                <span><i class="fa-solid fa-share-from-square"></i> Share</span>
+              </div>
+
+              <div class="bottom_left">
+                <span>00 : 00</span>
+              </div>
+
+              <div class="bottom_right">
+                <span>04 : 20</span>
+              </div>
+
+
+              <div class="video">
+                <div class="outer">
+                  <div class="inner"> <i class="fa-solid fa-play"></i> </div>
+                </div>
+              </div>
+              <!--//absolute item end//-->
+
+            </div>
+
+            <div class="text_box">
+              <p class="pp">Michel-Fashion Admin <span>|</span> <i class="fa-solid fa-calendar-days"></i> January 04, 2022</p>
+              <h4 class="h4">Fashion Women New key trends</h4>
+              <p class="pp">
+                Compellingly extend client-based catalysts for change with adaptive information. Appropriately repurpose inexpensive networks vis-a-vis turnkey customer service. Distinctively drive viral catalysts for change whereas high-payoff supply chains. Progressively myocardinate highly efficient meta-services via cutting-edge core competencies. Dynamically target mission.
+              </p>
+              <a class="aa" href="#">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- 4th section end -->
+
+
+
+    <!-- ====footer==== -->
+    <section id="sec_footer" class="src_anim">
+        <div class="container">
+  
+          <div class="foot_row_top"> <!-- ====top row==== -->
+            <div class="left">
+              <h2>Subscribe to Our Newsletter!</h2>
+              <p>Authoritatively morph 24/7 potentialities with error-free partnerships. Objectively engineer multimedia.</p>
+            </div>
+  
+            <div class="right">
+              <input type="email" placeholder="Enter your email....">
+              <button>Subscribe</button>
+            </div>
+            <hr>
+          </div>
+  
+          <div class="mid_row"><!-- ====mid row==== -->
+  
+            <div class="box first"><!--box -->
+              <img src="./assets/image/aytro logo black.png" alt="aytro">
+              <p class="p">Progre ssively optimize effective ideas before turnkey process improve ments. Proac tively dissem inate</p>
+              <span> 
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+              </span>
+            </div>
+            <div class="box"><!--box -->
+              <h3>My Account</h3>
+              <p><i class="fa-solid fa-chevron-right"></i> My Account</p>
+              <p><i class="fa-solid fa-chevron-right"></i> View Cart</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Wishlist</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Compare</p>
+              <p><i class="fa-solid fa-chevron-right"></i> New Products</p>
+              <span></span>
+            </div>
+  
+            <div class="box"><!--box -->
+              <h3>Support</h3>
+              <p><i class="fa-solid fa-chevron-right"></i> Help</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Contact Us</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Feadback</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Customer Service</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Store Locations</p>
+              <span></span>
+            </div>
+  
+            <div class="box"><!--box -->
+              <h3>Shop</h3>
+              <p><i class="fa-solid fa-chevron-right"></i> Men`s Shoppingt</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Women`s Shopping</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Kid`s Shopping</p>
+              <p><i class="fa-solid fa-chevron-right"></i> Discounts</p>
+              <p><i class="fa-solid fa-chevron-right"></i> New Arrivels</p>
+              <span></span>
+            </div>
+  
+            <div class="box last"><!--box -->
+              <h3>Contact Us</h3>
+              <p><i class="fa-solid fa-location-dot"></i> 2751 S Parker Rd, Aurora, CO 80014, United States</p>
+              <p><i class="fa-solid fa-phone"></i> +18008660286</p>
+              <p><i class="fa-solid fa-envelope"></i> Wishlist</p>
+            </div>
+            
+          </div>
+  
+        </div>
+  
+        <div class="container">
+          <div class="row_foot_foot">
+            <p>© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft.</span></p>
+            <img src="./assets/image/Payments img.png" alt="">
+          </div>
+        </div>
+    </section>
+    <!-- ====//footer end==== -->
+  
+
+
+
+    <!-- jquery --> <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- slick start-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js" integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick space end -->
+
+    <!-- bootstrap js --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- CUSTOM JS --> <script src="js/classic.JS"></script>
+
+    <script src="js/LOGIC.JS"></script>
+
+
+
+    <script>
+      let lastScrollTop = 0;
+const navbar = document.getElementById('nav_move');
+
+window.addEventListener('scroll', function() {
+  let currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScrollTop > lastScrollTop) {
+    // Scrolling down
+    navbar.classList.add('hidden');
+  } else {
+    // Scrolling up
+    navbar.classList.remove('hidden');
+  }
+
+  lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // For Mobile or negative scrolling
+});
+    </script>
+
+<script>
+  const boxes = document.querySelectorAll('.src_anim');
+ 
+ const observer = new IntersectionObserver(entries => {
+     entries.forEach(entry => {
+         if (entry.isIntersecting) {
+             entry.target.classList.add('show');
+         }
+     });
+ });
+ 
+ boxes.forEach(box => {
+     observer.observe(box);
+ });
+     </script>
+</body>
+</html>
